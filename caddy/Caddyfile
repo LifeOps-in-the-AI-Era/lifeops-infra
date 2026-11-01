@@ -1,0 +1,7 @@
+:1234 {
+	bind 127.0.0.1
+
+	root * {$LIFEOPS_WEB_ROOT}
+	encode zstd gzip
+	file_server
+}
